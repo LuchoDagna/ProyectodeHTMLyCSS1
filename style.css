@@ -148,7 +148,9 @@ width: 500px;
    .article h2{
     font-size: 20px;
    }
-   
+   .headline img{
+    width: 300px;
+   }
 
 }
 
@@ -156,6 +158,7 @@ width: 500px;
 .contenedor-pie{
 background-color: rgb(36, 36, 36);
 padding: 20px;
+width: 100%;
 }
 .pie{
 background-color: rgb(36, 36, 36);
@@ -168,9 +171,7 @@ margin: 20px 20%;}
 
 /* FORMULARIO */
 
-.form{
-    font-size: 20px;
-}
+
 
 /* REDES SOCIALES */
 
@@ -249,4 +250,31 @@ margin: 20px 20%;}
 }
 .wpp:hover{
      font-size: 8vh;
+}
+@media screen and (max-width:1197px){
+    .pie{
+        margin: 20px 0;
+        font-size: 15px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .redes{
+        margin:10px;
+    }
+}
+@media screen and (max-width:700px){
+    .article img{
+        height: 15vh;
+    }
+    .article h2{
+        font-size: 14px;
+    }
+    .article-principal p{
+        font-size: 20px;
+    }
+    .article-principal h2{
+        font-size: 30px;
+    }
+
 }
