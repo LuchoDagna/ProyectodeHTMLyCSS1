@@ -124,11 +124,8 @@ width: 500px;
     height: 30%;
 }
 .article img{
+    height: 30vh;
     width: 100%;
-    height:100%;
-}
-.contenedor-img{
-    height: 70%;
 }
 @media screen and (max-width:1197px){
     .cuerpo{
